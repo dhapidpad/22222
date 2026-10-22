@@ -315,131 +315,23 @@ export const content = {
     tag: "BỆNH 2 · TIÊU CHẢY CẤP TOÀN DIỆN",
     title: "TIÊU CHẢY CẤP: DẤU HIỆU, CĂN NGUYÊN & PHÒNG NGỪA",
     subtitle: "Nhận biết sớm 3 mức độ mất nước, cắt đứt chu trình lây truyền phân - miệng và nguyên tắc vàng bù Oresol.",
-    pillars: [
-      {
-        id: "pil-diet",
-        title: "1. Chế độ ăn uống khoa học",
-        icon: "🍲",
-        badge: "Dinh dưỡng",
-        tips: [
-          "Ăn đúng giờ, không bỏ bữa, nhai kỹ thức ăn để giảm tải cơ học cho dạ dày.",
-          "Chia nhỏ bữa ăn (không ăn quá no trong một bữa làm căng giãn thành dạ dày).",
-          "Hạn chế đồ ăn quá cay chua, chiên rán nhiều dầu mỡ, đồ uống có gas và rượu bia."
-        ]
-      },
-      {
-        id: "pil-lifestyle",
-        title: "2. Thói quen sinh hoạt bảo vệ dạ dày",
-        icon: "⏰",
-        badge: "Sinh hoạt",
-        tips: [
-          "TUYỆT ĐỐI không nằm hoặc vận động mạnh ngay sau ăn; đợi ít nhất 2 – 3 giờ.",
-          "Kê cao đầu giường 15 – 20 cm giúp trọng lực ngăn axit trào ngược ban đêm.",
-          "Ngủ đủ giấc, không thức khuya quá 23h; giữ tinh thần lạc quan, kiểm soát stress."
-        ]
-      },
-      {
-        id: "pil-med",
-        title: "3. Dùng thuốc an toàn & Đúng chỉ dẫn",
-        icon: "💊",
-        badge: "Dược phẩm",
-        tips: [
-          "Không tự ý mua và lạm dụng thuốc giảm đau NSAID (Ibuprofen, Aspirin) kéo dài.",
-          "Luôn uống thuốc giảm đau sau khi ăn no hoặc kèm theo thuốc bảo vệ dạ dày nếu bác sĩ kê.",
-          "Không tự ý ngừng thuốc điều trị khi mới thấy triệu chứng vừa thuyên giảm."
-        ]
-      },
-      {
-        id: "pil-hygiene",
-        title: "4. Vệ sinh thực phẩm & Khám định kỳ",
-        icon: "🧼",
-        badge: "Vệ sinh",
-        tips: [
-          "Thực hiện ăn chín uống sôi, rửa tay trước khi ăn để ngăn ngừa vi khuẩn H. pylori.",
-          "Duy trì cân nặng hợp lý, tránh béo phì làm tăng áp lực ổ bụng.",
-          "Đi khám chuyên khoa tiêu hóa ngay khi có các triệu chứng đau rát kéo dài."
-        ]
-      }
-    ],
-    questions: [
-      {
-        id: 1,
-        question: "Tác nhân virus hàng đầu gây tiêu chảy cấp nặng, nguy cơ mất nước tử vong cao ở trẻ em dưới 5 tuổi là gì?",
-        options: [
-          { text: "A. Virus Viêm gan B", correct: false },
-          { text: "B. Rotavirus (Capsid kép hình nan hoa bánh xe)", correct: true },
-          { text: "C. Virus Cúm mùa H1N1", correct: false },
-          { text: "D. Adenovirus gây viêm họng", correct: false }
-        ],
-        explanation: "Chính xác! Theo WHO, Rotavirus là nguyên nhân số 1 gây tiêu chảy cấp mất nước nặng ở trẻ nhỏ. Trẻ cần được uống đủ 2 liều vaccine Rotavirus trước 6 tháng tuổi để phòng bệnh."
-      },
-      {
-        id: 2,
-        question: "Chu trình lây truyền phổ biến nhất của các mầm bệnh tiêu chảy nhiễm trùng (vi khuẩn, virus, ký sinh trùng) là gì?",
-        options: [
-          { text: "A. Chu trình Phân – Miệng (Fecal-Oral Route)", correct: true },
-          { text: "B. Lây qua đường máu và tiêm chích", correct: false },
-          { text: "C. Lây qua giọt bắn đường hô hấp khi hắt hơi", correct: false },
-          { text: "D. Lây qua vết thương hở ngoài da", correct: false }
-        ],
-        explanation: "Chính xác! Mầm bệnh từ phân bài xuất ra ngoài phát tán qua nguồn nước bẩn, bàn tay không rửa xà phòng, ruồi nhặng trung gian và thức ăn ôi thiu rồi đi vào miệng người lành."
-      },
-      {
-        id: 3,
-        question: "Khi bị tiêu chảy nhiễm trùng, hành vi nào sau đây là SAI LẦM NGUY HIỂM cần tuyệt đối tránh?",
-        options: [
-          { text: "A. Uống từng ngụm nhỏ dung dịch bù nước Oresol", correct: false },
-          { text: "B. Tự ý uống ngay thuốc cầm tiêu chảy (Loperamide) làm liệt ruột", correct: true },
-          { text: "C. Rửa tay 6 bước với xà phòng sau khi đi vệ sinh", correct: false },
-          { text: "D. Đưa đi bệnh viện khi thấy nếp véo da lâu phẳng (>2s)", correct: false }
-        ],
-        explanation: "Chính xác! Thuốc cầm tiêu chảy (Loperamide) làm tê liệt nhu động ruột, giữ ứ độc tố và vi khuẩn lại bên trong dẫn đến biến chứng viêm ruột hoại tử, sốc nhiễm độc cực kỳ nguy hiểm!"
-      }
-    ]
+    symptoms: {
+      tag: "BỆNH 2 · DẤU HIỆU & 3 CẤP ĐỘ MẤT NƯỚC",
+      title: "DẤU HIỆU LÂM SÀNG TIÊU CHẢY CẤP",
+      subtitle: "Nguy hiểm lớn nhất của tiêu chảy là mất nước và điện giải. Nhận biết đúng 3 mức độ để xử trí kịp thời."
+    },
+    prevention: {
+      tag: "BỆNH 2 · 4 TRỤ CỘT PHÒNG BỆNH & BÙ NƯỚC",
+      title: "GIẢI PHÁP PHÒNG BỆNH TIÊU CHẢY CẤP & NGUYÊN TẮC ORESOL",
+      subtitle: "Rửa tay 6 bước, ăn chín uống sôi, vaccine Rotavirus và nguyên tắc vàng bù Oresol."
+    }
   },
 
-  // ==========================================
-  // SLIDE 9: TRIỆU CHỨNG TIÊU CHẢY & TRẮC NGHIỆM
-  // ==========================================
-  slide9: {
-    tag: "BỆNH 2 · MỨC ĐỘ MẤT NƯỚC & CỦNG CỐ KIẾN THỨC",
-    title: "TRIỆU CHỨNG TIÊU CHẢY",
-    subtitle: "Nhận biết sớm 3 mức độ mất nước và bấm chọn đáp án chính xác nhất để củng cố kiến thức!",
-    questions: [
-      {
-        id: 1,
-        question: "Biến chứng nguy hiểm đe dọa trực tiếp tính mạng người bệnh trong tiêu chảy cấp là gì?",
-        options: [
-          { text: "A. Tăng đường huyết đột ngột", correct: false },
-          { text: "B. Mất nước và rối loạn điện giải dẫn đến sốc giảm thể tích", correct: true },
-          { text: "C. Đau rát bỏng họng kéo dài", correct: false },
-          { text: "D. Thiếu vitamin D mạn tính", correct: false }
-        ],
-        explanation: "Chính xác! Việc đi ngoài phân lỏng xối xả làm kiệt nước và các ion điện giải quan trọng (Na+, K+, HCO3-) trong cơ thể cực nhanh, dẫn đến tụt huyết áp, trụy mạch và tử vong nếu không bù kịp thời."
-      },
-      {
-        id: 2,
-        question: "Dấu hiệu nếp véo da bụng phẳng 'rất chậm' (mất > 2 giây) kèm mắt rất trũng, li bì báo hiệu điều gì?",
-        options: [
-          { text: "A. Da bị lão hóa thông thường", correct: false },
-          { text: "B. Mất nước mức độ nặng (Phác đồ C) — Cần cấp cứu truyền dịch tĩnh mạch ngay!", correct: true },
-          { text: "C. Không mất nước, chỉ cần nghỉ ngơi", correct: false },
-          { text: "D. Ngộ độc vitamin A", correct: false }
-        ],
-        explanation: "Chính xác! Khi mất trên 10% trọng lượng cơ thể do mất nước nặng, da mất hoàn toàn tính đàn hồi khiến nếp véo da tồn tại trên 2 giây. Đây là dấu hiệu cờ đỏ phải nhập viện cấp cứu khẩn cấp!"
-      },
-      {
-        id: 3,
-        question: "Quy tắc vàng khi pha gói dung dịch bù nước Oresol theo chuẩn WHO và Bộ Y tế là gì?",
-        options: [
-          { text: "A. Pha thêm đường hoặc sữa cho trẻ dễ uống", correct: false },
-          { text: "B. Pha thật đặc với ít nước để nhanh khỏi", correct: false },
-          { text: "C. Pha đúng 100% thể tích nước sạch ghi trên vỏ gói (áp lực 245 mOsm/L), uống từng ngụm nhỏ", correct: true },
-          { text: "D. Đun sôi dung dịch Oresol sau khi đã pha xong", correct: false }
-        ],
-        explanation: "Chính xác! Gói Oresol giảm áp lực thẩm thấu (245 mOsm/L) phải được pha đủ 100% lượng nước sôi để nguội. Pha đặc hoặc thêm đường/sữa sẽ hút ngược nước vào lòng ruột, gây co giật và tử vong do tăng áp lực thẩm thấu!"
-      }
-    ]
+  // Alias cho module Phòng bệnh tiêu chảy cấp
+  slide10: {
+    tag: "BỆNH 2 · 4 TRỤ CỘT PHÒNG BỆNH & BÙ NƯỚC",
+    title: "GIẢI PHÁP PHÒNG BỆNH TIÊU CHẢY CẤP & NGUYÊN TẮC ORESOL",
+    subtitle: "Rửa tay 6 bước, ăn chín uống sôi, vaccine Rotavirus và nguyên tắc vàng bù Oresol."
   },
 
   // ==========================================
