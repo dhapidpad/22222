@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #F7FCFB;
+  --color-surface: #E3F7F2;
+  --color-mint: #1FBFA8;
+  --color-ocean: #3BB8F0;
+  --color-peach: #FF8A5B;
+  --color-sun: #FFD166;
+  --color-coral: #FF6F91;
+  --color-danger: #EF4B5F;
+  --color-dark: #12343B;
+  --color-muted: #5B7B80;
+
+  --grad-hero: linear-gradient(135deg, #E3F7F2 0%, #CFF1FF 50%, #FFF1D6 100%);
+  --grad-brand: linear-gradient(135deg, #1FBFA8 0%, #3BB8F0 100%);
+  --grad-warm: linear-gradient(135deg, #FF8A5B 0%, #FFD166 100%);
+  --grad-danger: linear-gradient(135deg, #EF4B5F 0%, #FF8A5B 100%);
+}
+
+body {
+  font-family: 'Be Vietnam Pro', 'Nunito', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Glassmorphism Classes */
+.glass-card {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 16px 40px rgba(31, 191, 168, 0.10);
+  border-radius: 28px;
+}
+
+.glass-card-warm {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 138, 91, 0.25);
+  box-shadow: 0 16px 40px rgba(255, 138, 91, 0.12);
+  border-radius: 28px;
+}
+
+.glass-card-ocean {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(59, 184, 240, 0.25);
+  box-shadow: 0 16px 40px rgba(59, 184, 240, 0.12);
+  border-radius: 28px;
+}
+
+.glass-card-danger {
+  background: rgba(255, 233, 236, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1.5px solid rgba(239, 75, 95, 0.45);
+  box-shadow: 0 16px 40px rgba(239, 75, 95, 0.15);
+  border-radius: 28px;
+}
+
+/* Background gradient utility */
+.bg-grad-hero {
+  background: var(--grad-hero);
+}
+
+.bg-grad-brand {
+  background: var(--grad-brand);
+}
+
+.bg-grad-warm {
+  background: var(--grad-warm);
+}
+
+/* Text Gradients */
+.text-grad-brand {
+  background: var(--grad-brand);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-grad-warm {
+  background: var(--grad-warm);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(31, 191, 168, 0.3);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(31, 191, 168, 0.6);
+}
