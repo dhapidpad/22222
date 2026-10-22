@@ -634,7 +634,7 @@ const MINI_QUIZ_QUESTIONS = [
 /* ==========================================
    COMPONENT CHÍNH: SLIDE 8 PREVENTION MASTER
    ========================================== */
-export function Slide8Prevention({ onSelectSlide }) {
+export function Slide7Prevention({ onSelectSlide }) {
   const [activePillar, setActivePillar] = useState(0);
   const [rightMode, setRightMode] = useState('timeline'); // 'timeline' | 'traffic'
   const [activeShields, setActiveShields] = useState([1, 2, 3, 4]); // Mặc định bật 4/5 mốc
